@@ -1,0 +1,50 @@
+   0 cd /home
+   1 ls
+   2 mkdir animals
+   3 ls
+   4 cd animals
+   5 mkdir dogs
+   6 mkdir cats
+   7 mkdir fish
+   8 ls
+   9 cd dogs
+  10 touch pluto.txt
+  11 ls
+  12 cd ..
+  13 cd cats
+  14 touch garfield.txt
+  15 ls
+  16 cd ..
+  17 cd fish
+  18 touch nemo.txt
+  19 ls
+  20 cd ..
+  21 tree
+  22 cd ..
+  23 ls
+  24 cd /tmp
+  25 touch adam.txt
+  26 cd ..
+  27 cd /tmp
+  28 touch eva.txt
+  29 ls
+  30 cd ..
+  31 cd home
+  32 mkdir humans
+  33 cd ..
+  34 cd tmp
+  35 cp /tmp/adam.txt /home/humans/adam.txt
+  36 cd ..
+  37 ls
+  38 acd tmp
+  39 cd tmp
+  40 mv  /tmp/eva.txt /opt/eve.txt
+  41 cd ..
+  42 cd opt
+  43 mv /opt/eve.txt /home/humans
+  44 cd ..
+  45 cd home
+  46 ls
+  47 tree
+  48 history
+  49 history > history_hw_linux_0307.txt
